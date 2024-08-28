@@ -1,0 +1,11 @@
+Void setup()
+{
+Const int LED = LED BUILTIN;
+Pin Mode( LED BUILTIN,OUTPUT);
+}
+Void loop(){
+Digital Write(LED BUILTIN, HIGH);
+delay(1000);
+Digital Write(LED BUILTIN, LOW);
+delay(1000);
+}
